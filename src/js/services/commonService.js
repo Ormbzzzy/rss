@@ -1,4 +1,4 @@
-angular.module('App').factory('CommonService',['$kinvey', function($kinvey){
+angular.module('App').factory('CommonService',['$location', function($location){
   //prepares user object for registration(send to server).
   var prepUser = function(user) {
       

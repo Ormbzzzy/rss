@@ -85,7 +85,7 @@
 			 * after kinvey has been initialized
 			 */
 			
-			
+			/*
 			var $injector = angular.injector(['ng', 'kinvey', 'app.constants']);		
 
 			$injector.invoke(['$kinvey', 'CONST','URI_PATH', function($kinvey, CONST, URI_PATH) {
@@ -97,7 +97,10 @@
 			    }, function() {
 			    });
 			}]);
-			
+			*/
+			angular.element(document).ready(function() {
+		      angular.bootstrap(document, ['App']);
+		    });
         </script>
     </body>
 </html>
