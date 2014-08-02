@@ -1,8 +1,6 @@
 App
 ===============
 
-###This is to be updated.
-
 ###Setting up PhoneGap on Android Platform (for Windows):
 
 Instuctions can also be found at:
@@ -13,6 +11,7 @@ Tools required:
 	<li> Android SDK </li>
 	<li> PhoneGap </li>
 	<li> Apache Ant </li>
+	<li> <a href="http://nodejs.org/download/"> NPM </a> </li>
 </ol>
 
 Note: Ensure you have Java JDK environment install on your computer.
@@ -26,11 +25,7 @@ Note: Ensure you have Java JDK environment install on your computer.
 	   Once Eclipse has finished installing you can now install the ADT Plugin.
 		Instructions can be found on this page: http://developer.android.com/sdk/installing/installing-adt.html
 
-	2. To download and install PhoneGap you must ensure that you have Gitbash, Node and NPM installed on your computer. 
-		### insert instructions on how to install node and nmp - http://nodejs.org/download/
-
-	   	Github can be installed from this site: http://msysgit.github.io/
-
+	2. Ensure that you have NPM installed on your computer. 
 	   To install PhoneGap use the command:
 	   	C:\> npm install -g phonegap
 
@@ -38,5 +33,24 @@ Note: Ensure you have Java JDK environment install on your computer.
 		http://ant.apache.org/
 
 	4. Next you need to set up the environment variables:
-		Instructions can be found in item 3B at:http://docs.phonegap.com/en/2.2.0/guide_getting-started_android_index.md.html
-		Further instructions can be found at : http://www.nczonline.net/blog/2012/04/12/how-to-install-apache-ant-on-windows/
+		Click here if you need help : http://www.nczonline.net/blog/2012/04/12/how-to-install-apache-ant-on-windows/
+
+###Steps to initialize project with PhoneGap
+
+<ol>
+	<li> In a separate directory create a new PhoneGap project: 
+	`phonegap create <project name>`</li>
+
+	<li> Copy the following directories that were created in ur new project into this project:
+	.cordova, platforms and plugins </li>
+</ol>
+
+###Run the project
+
+<ol>
+	<li> Using the terminal, cd into the build directory </li>
+
+	<li> Follow the instructions in the README for that directory </li>
+
+	<li> Execute `node www/server.js` to start the node server </li>
+</ol>
