@@ -3,15 +3,17 @@ App
 
 ###This is to be updated.
 
-###Setting up PhoneGap (for Windows):
+###Setting up PhoneGap on Android Platform (for Windows):
 
 Instuctions can also be found at:
 <a href="http://docs.phonegap.com/en/2.2.0/guide_getting-started_android_index.md.html"> docs.phonegap.com </a>
 
-	Software to download:
-	1. Android SDK
-	2. PhoneGap
-	3. Apache Ant
+Tools required:
+<ol>
+	<li> Android SDK </li>
+	<li> PhoneGap </li>
+	<li> Apache Ant </li>
+</ol>
 
 	Note: Ensure you have Java JDK environment install on your computer.
 
