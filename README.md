@@ -3,7 +3,7 @@ App
 
 ###This is to be updated.
 
-Setting up PhoneGap (for Windows):
+###Setting up PhoneGap (for Windows):
 
 	Software to download:
 	1. Android SDK
