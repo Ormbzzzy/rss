@@ -15,7 +15,7 @@ Tools required:
 	<li> Apache Ant </li>
 </ol>
 
-	Note: Ensure you have Java JDK environment install on your computer.
+Note: Ensure you have Java JDK environment install on your computer.
 
 	1. First ensure that you have the JAVA JDK environment installed on your computer, if not download and install.
 	   	http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
