@@ -1,15 +1,17 @@
-Fantasy Seasons
+App
 ===============
 
 Build Tools
 -----------
 
-###This folder contains the build tools for Fantasy Seasons.
+###This folder contains the build tools for the app.
 
 To setup **Build Tools**:
 
-* execute `npm install -g grunt-cli`
-* open a shell in this directory and execute `npm install` to install dependencies. 
+* Execute `npm install -g grunt-cli`
+* Install <a href="http://rubyinstaller.org/"> Ruby </a>
+* Execute `gem update --system && gem install compass`
+* Open a shell in this directory and execute `npm install` to install dependencies. 
 * Thats All!
 
 Disclaimer: Will take a while to install them all, but its worth it, makes life easier and faster !
