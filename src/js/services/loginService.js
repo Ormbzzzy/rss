@@ -1,15 +1,12 @@
-angular.module('App').factory('LoginService',['$kinvey', '$location', function($kinvey, $location){
+angular.module('App').factory('LoginService',['$location', function($location){
 
 	var userLogin = function(user, onSuccessCallBack, onFailCallBack) {
 
-			//makes service call to kinvey endpoint
-			var promise = $kinvey.User.login(user);
-
-			promise.then(onSuccessCallBack, onFailCallBack);
+			return true;
 	};
 
 	var isLoginPage = function() {
-		return $location.path() == URI_PATH.login ? true : false;
+		
 	};
 
 	return {
