@@ -37,20 +37,12 @@ Note: Ensure you have Java JDK environment install on your computer.
 
 ###Steps to initialize project with PhoneGap
 
-<ol>
-	<li> In a separate directory create a new PhoneGap project: 
-	`phonegap create <project name>`</li>
-
-	<li> Copy the following directories that were created in ur new project into this project:
-	.cordova, platforms and plugins </li>
-</ol>
+* In a separate directory create a new PhoneGap project: `phonegap create project-name`
+* Copy the following directories that were created in ur new project into this project: .cordova, platforms and plugins 
 
 ###Run the project
 
-<ol>
-	<li> Using the terminal, cd into the build directory </li>
-
-	<li> Follow the instructions in the README for that directory </li>
-
-	<li> Execute `node www/server.js` to start the node server </li>
+* Using the terminal, cd into the build directory 
+* Follow the instructions in the README for that directory 
+* Execute `node www/server.js` to start the node server 
 </ol>
